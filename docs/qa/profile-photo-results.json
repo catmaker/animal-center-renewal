@@ -1,0 +1,377 @@
+{
+  "version": "1.0.2",
+  "date": "2026-11-03",
+  "browser": "Chrome",
+  "status": "PASS",
+  "cases": [
+    {
+      "attributes": [
+        700,
+        700
+      ],
+      "box": [
+        524,
+        396
+      ],
+      "closeVisible": true,
+      "fit": "contain",
+      "horizontalOverflow": false,
+      "imageEntirelyInViewport": true,
+      "name": "보리",
+      "natural": [
+        700,
+        700
+      ],
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "attributes": [
+        700,
+        700
+      ],
+      "box": [
+        524,
+        396
+      ],
+      "closeVisible": true,
+      "fit": "contain",
+      "horizontalOverflow": false,
+      "imageEntirelyInViewport": true,
+      "name": "나비",
+      "natural": [
+        700,
+        700
+      ],
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "attributes": [
+        700,
+        700
+      ],
+      "box": [
+        524,
+        396.0000305175781
+      ],
+      "closeVisible": true,
+      "fit": "contain",
+      "horizontalOverflow": false,
+      "imageEntirelyInViewport": true,
+      "name": "두부",
+      "natural": [
+        700,
+        700
+      ],
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "attributes": [
+        700,
+        700
+      ],
+      "box": [
+        524,
+        396
+      ],
+      "closeVisible": true,
+      "fit": "contain",
+      "horizontalOverflow": false,
+      "imageEntirelyInViewport": true,
+      "name": "호랑",
+      "natural": [
+        700,
+        700
+      ],
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "attributes": [
+        700,
+        700
+      ],
+      "box": [
+        524,
+        396
+      ],
+      "closeVisible": true,
+      "fit": "contain",
+      "horizontalOverflow": false,
+      "imageEntirelyInViewport": true,
+      "name": "콩이",
+      "natural": [
+        700,
+        700
+      ],
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "attributes": [
+        700,
+        700
+      ],
+      "box": [
+        524,
+        396
+      ],
+      "closeVisible": true,
+      "fit": "contain",
+      "horizontalOverflow": false,
+      "imageEntirelyInViewport": true,
+      "name": "율무",
+      "natural": [
+        700,
+        700
+      ],
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "attributes": [
+        700,
+        700
+      ],
+      "box": [
+        524,
+        396
+      ],
+      "closeVisible": true,
+      "fit": "contain",
+      "horizontalOverflow": false,
+      "imageEntirelyInViewport": true,
+      "name": "밤이",
+      "natural": [
+        700,
+        700
+      ],
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "attributes": [
+        1200,
+        1638
+      ],
+      "box": [
+        524,
+        396
+      ],
+      "closeVisible": true,
+      "fit": "contain",
+      "horizontalOverflow": false,
+      "imageEntirelyInViewport": true,
+      "name": "연두",
+      "natural": [
+        1200,
+        1638
+      ],
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "attributes": [
+        700,
+        700
+      ],
+      "box": [
+        306,
+        306
+      ],
+      "closeVisible": true,
+      "fit": "contain",
+      "horizontalOverflow": false,
+      "imageEntirelyInViewport": true,
+      "name": "보리",
+      "natural": [
+        700,
+        700
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "attributes": [
+        700,
+        700
+      ],
+      "box": [
+        306,
+        306
+      ],
+      "closeVisible": true,
+      "fit": "contain",
+      "horizontalOverflow": false,
+      "imageEntirelyInViewport": true,
+      "name": "나비",
+      "natural": [
+        700,
+        700
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "attributes": [
+        700,
+        700
+      ],
+      "box": [
+        306,
+        306
+      ],
+      "closeVisible": true,
+      "fit": "contain",
+      "horizontalOverflow": false,
+      "imageEntirelyInViewport": true,
+      "name": "두부",
+      "natural": [
+        700,
+        700
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "attributes": [
+        700,
+        700
+      ],
+      "box": [
+        306,
+        306
+      ],
+      "closeVisible": true,
+      "fit": "contain",
+      "horizontalOverflow": false,
+      "imageEntirelyInViewport": true,
+      "name": "호랑",
+      "natural": [
+        700,
+        700
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "attributes": [
+        700,
+        700
+      ],
+      "box": [
+        306,
+        306
+      ],
+      "closeVisible": true,
+      "fit": "contain",
+      "horizontalOverflow": false,
+      "imageEntirelyInViewport": true,
+      "name": "콩이",
+      "natural": [
+        700,
+        700
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "attributes": [
+        700,
+        700
+      ],
+      "box": [
+        306,
+        306
+      ],
+      "closeVisible": true,
+      "fit": "contain",
+      "horizontalOverflow": false,
+      "imageEntirelyInViewport": true,
+      "name": "율무",
+      "natural": [
+        700,
+        700
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "attributes": [
+        700,
+        700
+      ],
+      "box": [
+        306,
+        306
+      ],
+      "closeVisible": true,
+      "fit": "contain",
+      "horizontalOverflow": false,
+      "imageEntirelyInViewport": true,
+      "name": "밤이",
+      "natural": [
+        700,
+        700
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "attributes": [
+        1200,
+        1638
+      ],
+      "box": [
+        306,
+        340
+      ],
+      "closeVisible": true,
+      "fit": "contain",
+      "horizontalOverflow": false,
+      "imageEntirelyInViewport": true,
+      "name": "연두",
+      "natural": [
+        1200,
+        1638
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  ],
+  "console": []
+}

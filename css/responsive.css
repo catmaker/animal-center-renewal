@@ -1320,7 +1320,7 @@
     font-size: 13px;
   }
   .dialog-photo {
-    height: 250px;
+    max-height: min(42vh, 340px);
   }
   .consult-checklist {
     font-size: 12px;

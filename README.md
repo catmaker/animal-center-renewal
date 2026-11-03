@@ -6,7 +6,7 @@
 
 ![페이지 미리보기](docs/qa/desktop-1440.jpg)
 
-[모션 미리보기](docs/qa/hero-motion.gif) · [제출 ZIP](https://github.com/catmaker/animal-center-renewal/releases/download/v1.0.1/animal-center-renewal.zip)
+[모션 미리보기](docs/qa/hero-motion.gif) · [제출 ZIP](https://github.com/catmaker/animal-center-renewal/releases/download/v1.0.2/animal-center-renewal.zip)
 
 ## 실행 방법
 
@@ -59,7 +59,7 @@ HTML5, CSS3, Vanilla JavaScript로 작성했습니다. 일반 `defer` 스크립�
 
 - 고정 헤더, 현재 섹션 표시, 본문 이동, 모바일 메뉴
 - 스크롤 위치에 따른 돌봄 사진·제목·진행선 전환
-- 보호동물 필터, 결과 수 안내, 상세 프로필
+- 보호동물 필터, 결과 수 안내, 전체 사진을 보여주는 상세 프로필
 - 지역별 시설 탭과 키보드 이동
 - FAQ 높이 전환, 목적별 상담 안내
 - 팝업의 Tab 순환, Escape 닫기, 진입 버튼으로 초점 복귀
