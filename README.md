@@ -6,12 +6,12 @@
 
 ![페이지 미리보기](docs/qa/desktop-1440.jpg)
 
-[모션 미리보기](docs/qa/hero-motion.gif) · [제출 ZIP](https://github.com/catmaker/animal-center-renewal/releases/download/v1.1.2/animal-center-renewal.zip)
+[모션 미리보기](docs/qa/hero-motion.gif) · [제출 ZIP](https://github.com/catmaker/animal-center-renewal/releases/download/v1.1.3/animal-center-renewal.zip)
 
 ## 실행 방법
 
 1. ZIP 전체를 압축 해제합니다.
-2. `animal-center-renewal/index.html`을 브라우저로 엽니다.
+2. `신지수_애니멀코퍼레이션_웹개발자_과제/index.html`을 브라우저로 엽니다.
 3. 별도의 설치나 빌드 없이 사용합니다.
 
 `index.html`만 따로 옮기지 말고 `css`, `js`, `assets` 폴더를 함께 유지해야 합니다. 페이지 자원은 모두 로컬에 포함했습니다. 공식 입양 공고·카카오톡·SNS 연결에는 인터넷이 필요하며, 전화 링크는 통화 가능한 기기에서 사용할 수 있습니다.
@@ -24,7 +24,7 @@
 | 반응형 웹 | 데스크톱·태블릿·모바일 레이아웃과 내비게이션 |
 | HTML·CSS·JS·이미지 등 전체 소스 포함 | 상대경로로 연결한 로컬 파일 일체 포함 |
 | 외부 라이브러리 사용 내용 기재 | 실행 라이브러리 없음. 사진·폰트의 출처와 라이선스 별도 기록 |
-| 하나의 폴더를 ZIP으로 제출 | `animal-center-renewal/` 아래에 실행 파일과 문서 정리 |
+| 하나의 폴더를 ZIP으로 제출 | `신지수_애니멀코퍼레이션_웹개발자_과제/` 아래에 실행 파일과 문서 정리 |
 | 추가 파일 없이 실행 | CDN, API, 패키지 설치, 서버 전용 기능 사용 안 함 |
 
 ## 기존 서비스 분석과 개선
@@ -102,7 +102,7 @@ Hero 사진은 우선 로드하고 하단 사진은 지연 로드합니다. 이�
 ## 파일 구성
 
 ```text
-animal-center-renewal/
+신지수_애니멀코퍼레이션_웹개발자_과제/
 ├── index.html
 ├── css/                 # 초기화, 변수, 화면 구성, 반응형
 ├── js/                  # 데이터와 인터랙션
