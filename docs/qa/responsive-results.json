@@ -1,0 +1,58 @@
+[
+  {
+    "brokenImages": 0,
+    "height": 900,
+    "scrollWidth": 1440,
+    "smallTargets": [],
+    "textOverflow": [],
+    "width": 1440
+  },
+  {
+    "brokenImages": 0,
+    "height": 800,
+    "scrollWidth": 1280,
+    "smallTargets": [],
+    "textOverflow": [],
+    "width": 1280
+  },
+  {
+    "brokenImages": 0,
+    "height": 768,
+    "scrollWidth": 1024,
+    "smallTargets": [],
+    "textOverflow": [],
+    "width": 1024
+  },
+  {
+    "brokenImages": 0,
+    "height": 1024,
+    "scrollWidth": 768,
+    "smallTargets": [],
+    "textOverflow": [],
+    "width": 768
+  },
+  {
+    "brokenImages": 0,
+    "height": 932,
+    "scrollWidth": 430,
+    "smallTargets": [],
+    "textOverflow": [],
+    "width": 430
+  },
+  {
+    "brokenImages": 0,
+    "height": 844,
+    "scrollWidth": 390,
+    "smallTargets": [],
+    "textOverflow": [],
+    "width": 390
+  },
+  {
+    "brokenImages": 0,
+    "height": 812,
+    "scrollWidth": 375,
+    "smallTargets": [],
+    "textOverflow": [],
+    "width": 375
+  }
+]

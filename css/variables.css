@@ -1,0 +1,35 @@
+@font-face  {
+  font-family: Pretendard;
+  src: url('../assets/fonts/PretendardVariable-subset.woff2') format('woff2');
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face  {
+  font-family: 'Care Myeongjo';
+  src: url('../assets/fonts/CareMyeongjo-subset.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+:root  {
+  --forest-900: #182f26;
+  --forest-700: #365545;
+  --forest-500: #536f56;
+  --orange-500: #bd603e;
+  --orange-100: #f4e4d5;
+  --cream-50: #f5f3ec;
+  --cream-100: #eae8de;
+  --gray-950: #242c24;
+  --gray-700: #51584e;
+  --gray-500: #666d61;
+  --gray-300: #cccfc2;
+  --white: #fff;
+  --lime: #d8e4b5;
+  --font: Pretendard, SUIT, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --serif: 'Care Myeongjo', 'Noto Serif KR', Batang, Georgia, serif;
+  --content: 1200px;
+  --wide: 1360px;
+  --gutter: 40px;
+  --section-space: 136px;
+  --header-height: 80px;
+  --ease: cubic-bezier(.22,.68,.2,1);
+}

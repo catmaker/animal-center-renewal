@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "htmlImages": 17,
+  "photoFiles": 17,
+  "animalProfiles": 8,
+  "regions": 8,
+  "errors": [],
+  "version": "care-v2",
+  "runtime": {
+    "chrome": "HTTP verified",
+    "safari": "HTTP rendering verified",
+    "fileProtocol": "Current revision not tested: browser URL policy",
+    "consoleErrorsAndWarnings": 0,
+    "careStages": 4,
+    "animalFilters": 4,
+    "regionTabs": 8,
+    "faqItems": 6,
+    "dialogFocusCycle": "verified"
+  }
+}

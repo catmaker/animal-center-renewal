@@ -1,0 +1,80 @@
+{
+  "careResults": [
+    {
+      "caption": "위기에서, 안전한 곳으로.",
+      "frame": "0",
+      "selected": "0"
+    },
+    {
+      "caption": "오늘은, 안심하고 쉴 수 있도록.",
+      "frame": "1",
+      "selected": "1"
+    },
+    {
+      "caption": "다시, 마음을 놓는 연습.",
+      "frame": "2",
+      "selected": "2"
+    },
+    {
+      "caption": "이제, 함께할 내일을 준비해요.",
+      "frame": "3",
+      "selected": "3"
+    }
+  ],
+  "filterCheck": [
+    {
+      "count": 3,
+      "filter": "dog"
+    },
+    {
+      "count": 3,
+      "filter": "cat"
+    },
+    {
+      "count": 2,
+      "filter": "other"
+    },
+    {
+      "count": 8,
+      "filter": "all"
+    }
+  ],
+  "tabCheck": [
+    {
+      "count": 3,
+      "region": "서울"
+    },
+    {
+      "count": 3,
+      "region": "경기"
+    },
+    {
+      "count": 1,
+      "region": "인천"
+    },
+    {
+      "count": 3,
+      "region": "충청"
+    },
+    {
+      "count": 1,
+      "region": "강원"
+    },
+    {
+      "count": 3,
+      "region": "경상"
+    },
+    {
+      "count": 3,
+      "region": "전라"
+    },
+    {
+      "count": 1,
+      "region": "제주"
+    }
+  ],
+  "faqOpenClose": 6,
+  "dialogTabCycle": "last consultation link ↔ close button",
+  "escapeClose": true,
+  "mobileMenuClosesAfterAnchor": true
+}
