@@ -173,15 +173,57 @@
       <section id="network" class="network-section section" aria-labelledby="network-title">
         <div class="container network-layout">
           <div class="network-intro reveal">
-            <p class="eyebrow">05 / CLOSE TO YOU</p>
-            <h2 id="network-title">가까운 곳에서,<br><em>같은 마음으로.</em></h2>
-            <p>전국에서 가까운 보호시설을 만나보세요.<br>방문 전, 해당 시설에 먼저 문의해 주세요.</p>
+            <div class="network-heading">
+              <p class="eyebrow">05 / CLOSE TO YOU</p>
+              <h2 id="network-title">가까운 곳에서,<br><em>같은 마음으로.</em></h2>
+              <p>전국에서 가까운 보호시설을 만나보세요.<br>방문 전, 해당 시설에 먼저 문의해 주세요.</p>
+            </div>
             <div class="network-stat">
               <strong>77<span>개 지부</span></strong>
               <p>전국을 잇는 보호 네트워크</p>
               <small>공식 홈페이지 표기 기준 · 2026.11.03 확인</small>
             </div>
-            <div class="network-map" aria-label="전국 8개 권역을 표시한 개념도"><svg viewBox="0 0 330 330" role="img" aria-label="수도권부터 제주까지 연결된 전국 네트워크 개념도"><path d="m176 18 31 35 6 39 29 37 17 51-9 40-29 31-34 12-19 23-24-13-30 2-19-25 8-39-10-29 20-32-12-23 18-27 6-29 30-11z" fill="#dfE6dc"/><path d="m170 40-37 63 15 50 44 27-31 58m-28-135 58-6m-43 56-38 55m82-28 31 39" fill="none" stroke="#becbbc" stroke-width="1"/><ellipse cx="107" cy="312" rx="23" ry="9" fill="#dfe6dc"/><g fill="#285746"><circle cx="134" cy="100" r="5"/><circle cx="118" cy="108" r="4"/><circle cx="147" cy="117" r="4"/><circle cx="190" cy="97" r="4"/><circle cx="152" cy="164" r="4"/><circle cx="128" cy="227" r="4"/><circle cx="211" cy="215" r="4"/><circle cx="108" cy="310" r="4"/></g></svg><span>전국 8개 권역 · 위치 개념도</span></div>
+          </div>
+          <div class="network-map reveal" role="group" aria-label="지도에서 보호시설 지역 선택" aria-describedby="network-map-help">
+            <div class="map-heading"><p id="network-map-help">어디에서 만나볼까요?</p><span>EXPLORE THE NETWORK</span></div>
+            <div class="map-canvas">
+              <svg class="network-geography" viewBox="0 0 440 440" aria-hidden="true" focusable="false">
+                <defs>
+                  <pattern id="map-grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="currentColor" stroke-width=".5"/></pattern>
+                </defs>
+                <rect width="440" height="440" fill="url(#map-grid)" class="map-grid"/>
+                <g class="map-land">
+                  <path data-map-area="경기" d="m211 63-8 3-10 21-12 7-4 19-13 10 2 14-13 13 7 17-7 13 6 16 30-12 27-28 2-40 7-24z"/>
+                  <path data-map-area="강원" d="m211 63 12-27 17 18 9 23 5 19 14 15 6 22 14 19 12 32-53 11-31-39 2-40 7-24z"/>
+                  <path data-map-area="충청" d="m159 196-14 11 5 19-9 15 6 16 37 15 42-19 21-23v-35l-31-39-27 28z"/>
+                  <path data-map-area="경상" d="m247 195 53-11 9 15-4 21 11 19-4 15-15 11 1 16-15 10-10 18-16 11-10 19-18 5-4-41 1-50 21-23z"/>
+                  <path data-map-area="전라" d="m147 257-11 16 7 13-10 19 8 10-4 19 8 14 10-4 12 15 11-7 18 11 6-12 17 5 10-12-4-41 1-50-42 19z"/>
+                  <ellipse data-map-area="제주" cx="159" cy="398" rx="27" ry="10" transform="rotate(-12 159 398)"/>
+                  <circle data-map-area="인천" cx="167" cy="163" r="8"/>
+                  <circle data-map-area="서울" class="is-active" cx="185" cy="148" r="9"/>
+                </g>
+                <g class="map-signal is-active" data-map-signal="서울"><path d="M104 132h39l42 16"/><circle class="map-beacon" cx="185" cy="148" r="14"/><circle class="map-dot" cx="185" cy="148" r="4"/></g>
+                <g class="map-signal" data-map-signal="경기"><path d="M137 57h31l27 66"/><circle class="map-beacon" cx="195" cy="123" r="14"/><circle class="map-dot" cx="195" cy="123" r="4"/></g>
+                <g class="map-signal" data-map-signal="인천"><path d="M110 207h22l35-44"/><circle class="map-beacon" cx="167" cy="163" r="14"/><circle class="map-dot" cx="167" cy="163" r="4"/></g>
+                <g class="map-signal" data-map-signal="충청"><path d="m200 225 27-31h29"/><circle class="map-beacon" cx="200" cy="225" r="14"/><circle class="map-dot" cx="200" cy="225" r="4"/></g>
+                <g class="map-signal" data-map-signal="강원"><path d="M336 88h-41l-45 32"/><circle class="map-beacon" cx="250" cy="120" r="14"/><circle class="map-dot" cx="250" cy="120" r="4"/></g>
+                <g class="map-signal" data-map-signal="경상"><path d="M326 277h-34l-26-12"/><circle class="map-beacon" cx="266" cy="265" r="14"/><circle class="map-dot" cx="266" cy="265" r="4"/></g>
+                <g class="map-signal" data-map-signal="전라"><path d="M137 317h16l22-14"/><circle class="map-beacon" cx="175" cy="303" r="14"/><circle class="map-dot" cx="175" cy="303" r="4"/></g>
+                <g class="map-signal" data-map-signal="제주"><path d="M105 400h54"/><circle class="map-beacon" cx="159" cy="398" r="14"/><circle class="map-dot" cx="159" cy="398" r="4"/></g>
+              </svg>
+              <button class="map-pin" style="--x:15%;--y:30%" data-map-region="서울" aria-label="서울 보호시설 3곳 보기" aria-pressed="true" aria-controls="facility-panel" tabindex="0"><span>서울</span><small>3</small></button>
+              <button class="map-pin" style="--x:23%;--y:13%" data-map-region="경기" aria-label="경기 보호시설 3곳 보기" aria-pressed="false" aria-controls="facility-panel" tabindex="-1"><span>경기</span><small>3</small></button>
+              <button class="map-pin" style="--x:16%;--y:47%" data-map-region="인천" aria-label="인천 보호시설 1곳 보기" aria-pressed="false" aria-controls="facility-panel" tabindex="-1"><span>인천</span><small>1</small></button>
+              <button class="map-pin" style="--x:67%;--y:44%" data-map-region="충청" aria-label="충청 보호시설 3곳 보기" aria-pressed="false" aria-controls="facility-panel" tabindex="-1"><span>충청</span><small>3</small></button>
+              <button class="map-pin" style="--x:85%;--y:20%" data-map-region="강원" aria-label="강원 보호시설 1곳 보기" aria-pressed="false" aria-controls="facility-panel" tabindex="-1"><span>강원</span><small>1</small></button>
+              <button class="map-pin" style="--x:83%;--y:63%" data-map-region="경상" aria-label="경상 보호시설 3곳 보기" aria-pressed="false" aria-controls="facility-panel" tabindex="-1"><span>경상</span><small>3</small></button>
+              <button class="map-pin" style="--x:24%;--y:72%" data-map-region="전라" aria-label="전라 보호시설 3곳 보기" aria-pressed="false" aria-controls="facility-panel" tabindex="-1"><span>전라</span><small>3</small></button>
+              <button class="map-pin" style="--x:16%;--y:91%" data-map-region="제주" aria-label="제주 보호시설 1곳 보기" aria-pressed="false" aria-controls="facility-panel" tabindex="-1"><span>제주</span><small>1</small></button>
+            </div>
+            <div class="map-caption"><span>지역을 눌러 시설을 찾아보세요</span><span>8개 권역 · 위치 개념도</span></div>
+            <button class="map-result" id="map-results" aria-controls="facility-panel" aria-label="서울 보호시설 3곳 목록으로 이동"><span><strong id="map-region-name">서울</strong><span id="map-region-count">소개 시설 3곳</span></span><span class="map-result-action">시설 목록 보기 <span aria-hidden="true">↗</span></span></button>
+            <p id="network-status" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+            <span class="sr-only">지도에서 방향키와 Home, End 키로 지역을 선택할 수 있습니다.</span>
           </div>
           <div class="facility-browser reveal">
             <div class="region-tabs" role="tablist" aria-label="시설 지역 선택"><button role="tab" id="region-0" aria-selected="true" aria-controls="facility-panel" tabindex="0" data-region="서울">서울</button><button role="tab" id="region-1" aria-selected="false" aria-controls="facility-panel" tabindex="-1" data-region="경기">경기</button><button role="tab" id="region-2" aria-selected="false" aria-controls="facility-panel" tabindex="-1" data-region="인천">인천</button><button role="tab" id="region-3" aria-selected="false" aria-controls="facility-panel" tabindex="-1" data-region="충청">충청</button><button role="tab" id="region-4" aria-selected="false" aria-controls="facility-panel" tabindex="-1" data-region="강원">강원</button><button role="tab" id="region-5" aria-selected="false" aria-controls="facility-panel" tabindex="-1" data-region="경상">경상</button><button role="tab" id="region-6" aria-selected="false" aria-controls="facility-panel" tabindex="-1" data-region="전라">전라</button><button role="tab" id="region-7" aria-selected="false" aria-controls="facility-panel" tabindex="-1" data-region="제주">제주</button></div>

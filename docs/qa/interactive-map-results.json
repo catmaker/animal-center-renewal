@@ -1,0 +1,470 @@
+{
+  "version": "1.1.0",
+  "date": "2026-11-03",
+  "browser": "Chrome",
+  "status": "PASS",
+  "selectionCases": [
+    {
+      "input": "map button",
+      "viewport": "1440x900",
+      "region": "서울",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "map button",
+      "viewport": "1440x900",
+      "region": "경기",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "map button",
+      "viewport": "1440x900",
+      "region": "인천",
+      "count": 1,
+      "status": "PASS"
+    },
+    {
+      "input": "map button",
+      "viewport": "1440x900",
+      "region": "충청",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "map button",
+      "viewport": "1440x900",
+      "region": "강원",
+      "count": 1,
+      "status": "PASS"
+    },
+    {
+      "input": "map button",
+      "viewport": "1440x900",
+      "region": "경상",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "map button",
+      "viewport": "1440x900",
+      "region": "전라",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "map button",
+      "viewport": "1440x900",
+      "region": "제주",
+      "count": 1,
+      "status": "PASS"
+    },
+    {
+      "input": "region tab",
+      "viewport": "1440x900",
+      "region": "서울",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "region tab",
+      "viewport": "1440x900",
+      "region": "경기",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "region tab",
+      "viewport": "1440x900",
+      "region": "인천",
+      "count": 1,
+      "status": "PASS"
+    },
+    {
+      "input": "region tab",
+      "viewport": "1440x900",
+      "region": "충청",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "region tab",
+      "viewport": "1440x900",
+      "region": "강원",
+      "count": 1,
+      "status": "PASS"
+    },
+    {
+      "input": "region tab",
+      "viewport": "1440x900",
+      "region": "경상",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "region tab",
+      "viewport": "1440x900",
+      "region": "전라",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "region tab",
+      "viewport": "1440x900",
+      "region": "제주",
+      "count": 1,
+      "status": "PASS"
+    },
+    {
+      "input": "map button",
+      "viewport": "390x844",
+      "region": "서울",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "map button",
+      "viewport": "390x844",
+      "region": "경기",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "map button",
+      "viewport": "390x844",
+      "region": "인천",
+      "count": 1,
+      "status": "PASS"
+    },
+    {
+      "input": "map button",
+      "viewport": "390x844",
+      "region": "충청",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "map button",
+      "viewport": "390x844",
+      "region": "강원",
+      "count": 1,
+      "status": "PASS"
+    },
+    {
+      "input": "map button",
+      "viewport": "390x844",
+      "region": "경상",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "map button",
+      "viewport": "390x844",
+      "region": "전라",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "map button",
+      "viewport": "390x844",
+      "region": "제주",
+      "count": 1,
+      "status": "PASS"
+    },
+    {
+      "input": "region tab",
+      "viewport": "390x844",
+      "region": "서울",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "region tab",
+      "viewport": "390x844",
+      "region": "경기",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "region tab",
+      "viewport": "390x844",
+      "region": "인천",
+      "count": 1,
+      "status": "PASS"
+    },
+    {
+      "input": "region tab",
+      "viewport": "390x844",
+      "region": "충청",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "region tab",
+      "viewport": "390x844",
+      "region": "강원",
+      "count": 1,
+      "status": "PASS"
+    },
+    {
+      "input": "region tab",
+      "viewport": "390x844",
+      "region": "경상",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "region tab",
+      "viewport": "390x844",
+      "region": "전라",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "region tab",
+      "viewport": "390x844",
+      "region": "제주",
+      "count": 1,
+      "status": "PASS"
+    },
+    {
+      "input": "map area",
+      "viewport": "390x844",
+      "region": "서울",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "map area",
+      "viewport": "390x844",
+      "region": "경기",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "map area",
+      "viewport": "390x844",
+      "region": "인천",
+      "count": 1,
+      "status": "PASS"
+    },
+    {
+      "input": "map area",
+      "viewport": "390x844",
+      "region": "충청",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "map area",
+      "viewport": "390x844",
+      "region": "강원",
+      "count": 1,
+      "status": "PASS"
+    },
+    {
+      "input": "map area",
+      "viewport": "390x844",
+      "region": "경상",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "map area",
+      "viewport": "390x844",
+      "region": "전라",
+      "count": 3,
+      "status": "PASS"
+    },
+    {
+      "input": "map area",
+      "viewport": "390x844",
+      "region": "제주",
+      "count": 1,
+      "status": "PASS"
+    }
+  ],
+  "keyboardCases": [
+    {
+      "from": "경상",
+      "key": "Home",
+      "expected": "서울",
+      "status": "PASS"
+    },
+    {
+      "from": "서울",
+      "key": "ArrowLeft",
+      "expected": "제주",
+      "status": "PASS"
+    },
+    {
+      "from": "제주",
+      "key": "ArrowRight",
+      "expected": "서울",
+      "status": "PASS"
+    },
+    {
+      "from": "서울",
+      "key": "End",
+      "expected": "제주",
+      "status": "PASS"
+    },
+    {
+      "from": "제주",
+      "key": "ArrowUp",
+      "expected": "전라",
+      "status": "PASS"
+    },
+    {
+      "from": "전라",
+      "key": "ArrowDown",
+      "expected": "제주",
+      "status": "PASS"
+    }
+  ],
+  "layouts": [
+    {
+      "mapBounds": [
+        112.5,
+        658.8359375
+      ],
+      "minTarget": [
+        78,
+        44
+      ],
+      "overflow": false,
+      "overlaps": [],
+      "stacked": true,
+      "viewport": [
+        1440,
+        900
+      ]
+    },
+    {
+      "mapBounds": [
+        40,
+        579.0234375
+      ],
+      "minTarget": [
+        78,
+        44
+      ],
+      "overflow": false,
+      "overlaps": [],
+      "stacked": true,
+      "viewport": [
+        1280,
+        800
+      ]
+    },
+    {
+      "mapBounds": [
+        32,
+        469.5546875
+      ],
+      "minTarget": [
+        78,
+        44
+      ],
+      "overflow": false,
+      "overlaps": [],
+      "stacked": true,
+      "viewport": [
+        1024,
+        768
+      ]
+    },
+    {
+      "mapBounds": [
+        32,
+        360.5
+      ],
+      "minTarget": [
+        78,
+        44
+      ],
+      "overflow": false,
+      "overlaps": [],
+      "stacked": true,
+      "viewport": [
+        768,
+        1024
+      ]
+    },
+    {
+      "mapBounds": [
+        24,
+        391
+      ],
+      "minTarget": [
+        70,
+        44
+      ],
+      "overflow": false,
+      "overlaps": [],
+      "stacked": true,
+      "viewport": [
+        430,
+        932
+      ]
+    },
+    {
+      "mapBounds": [
+        24,
+        351
+      ],
+      "minTarget": [
+        70,
+        44
+      ],
+      "overflow": false,
+      "overlaps": [],
+      "stacked": true,
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "mapBounds": [
+        20,
+        340
+      ],
+      "minTarget": [
+        70,
+        44
+      ],
+      "overflow": false,
+      "overlaps": [],
+      "stacked": true,
+      "viewport": [
+        375,
+        812
+      ]
+    },
+    {
+      "mapBounds": [
+        20,
+        300
+      ],
+      "minTarget": [
+        70,
+        44
+      ],
+      "overflow": false,
+      "overlaps": [],
+      "stacked": true,
+      "viewport": [
+        320,
+        760
+      ]
+    }
+  ],
+  "listJump": {
+    "focus": "facility-panel",
+    "headerClearance": "verified at 390x844"
+  },
+  "facilityRow": "Clicking 대구본부 opens a dialog with the selected facility context",
+  "console": []
+}

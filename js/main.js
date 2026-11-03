@@ -163,33 +163,92 @@
 
   const regionTabs = $$('[data-region]');
   const panel = $('#facility-panel');
+  const mapPins = $$('[data-map-region]');
+  const mapAreas = $$('[data-map-area]');
+  const mapSignals = $$('[data-map-signal]');
+  const mapResults = $('#map-results');
+  const networkStatus = $('#network-status');
+  const mapCanvas = $('.map-canvas');
+  let previewedRegion;
+
+  function previewRegion(region) {
+    if (previewedRegion === region) return;
+    previewedRegion = region;
+    mapAreas.forEach(area => area.classList.toggle('is-preview', area.dataset.mapArea === region));
+    mapSignals.forEach(signal => signal.classList.toggle('is-preview', signal.dataset.mapSignal === region));
+  }
+
   function selectRegion(tab, moveFocus = false) {
+    const region = tab.dataset.region;
+    const facilities = data.facilities[region];
     regionTabs.forEach(item => {
       item.setAttribute('aria-selected', String(item === tab));
       item.tabIndex = item === tab ? 0 : -1;
     });
-    const facilities = data.facilities[tab.dataset.region];
+    mapPins.forEach(pin => {
+      const active = pin.dataset.mapRegion === region;
+      pin.setAttribute('aria-pressed', String(active));
+      pin.tabIndex = active ? 0 : -1;
+    });
+    mapAreas.forEach(area => area.classList.toggle('is-active', area.dataset.mapArea === region));
+    mapSignals.forEach(signal => signal.classList.toggle('is-active', signal.dataset.mapSignal === region));
+    $('#map-region-name').textContent = region;
+    $('#map-region-count').textContent = `소개 시설 ${facilities.length}곳`;
+    mapResults.setAttribute('aria-label', `${region} 보호시설 ${facilities.length}곳 목록으로 이동`);
+    networkStatus.textContent = `${region}의 보호시설 ${facilities.length}곳을 표시합니다.`;
     panel.setAttribute('aria-labelledby', tab.id);
     // All strings below are authored local data, never external or user supplied HTML.
-    panel.innerHTML = `<div class="facility-summary"><h3>${tab.dataset.region}의 보호시설</h3><span>${facilities.length}곳 안내</span></div><ul class="facility-list">${facilities.map(([name, location]) => `<li><div><strong>${name}</strong><span>${location}</span></div><button class="facility-link" data-consult="facility" data-facility="${name}" aria-label="${name} 상담 안내">상담 안내 <span aria-hidden="true">↗</span></button></li>`).join('')}</ul>`;
+    panel.innerHTML = `<div class="facility-summary"><h3>${region}의 보호시설</h3><span>${facilities.length}곳 안내</span></div><ul class="facility-list">${facilities.map(([name, location]) => `<li><div><strong>${name}</strong><span>${location}</span></div><button class="facility-link" data-consult="facility" data-facility="${name}" aria-label="${name} 상담 안내">상담 안내 <span aria-hidden="true">↗</span></button></li>`).join('')}</ul>`;
     if (!reducedMotion.matches) panel.animate([
       { opacity: .25, transform: 'translateY(10px)' },
       { opacity: 1, transform: 'translateY(0)' }
     ], { duration: 380, easing: 'cubic-bezier(.22,.68,.2,1)' });
     if (moveFocus) tab.focus();
   }
+  function regionKeyIndex(event, index) {
+    if (event.key === 'ArrowRight' || event.key === 'ArrowDown') return (index + 1) % regionTabs.length;
+    if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') return (index - 1 + regionTabs.length) % regionTabs.length;
+    if (event.key === 'Home') return 0;
+    if (event.key === 'End') return regionTabs.length - 1;
+  }
   regionTabs.forEach((tab, index) => {
     tab.addEventListener('click', () => selectRegion(tab));
     tab.addEventListener('keydown', event => {
-      let next;
-      if (event.key === 'ArrowRight' || event.key === 'ArrowDown') next = (index + 1) % regionTabs.length;
-      if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') next = (index - 1 + regionTabs.length) % regionTabs.length;
-      if (event.key === 'Home') next = 0;
-      if (event.key === 'End') next = regionTabs.length - 1;
+      const next = regionKeyIndex(event, index);
       if (next === undefined) return;
       event.preventDefault();
       selectRegion(regionTabs[next], true);
     });
+  });
+  mapPins.forEach((pin, index) => {
+    pin.addEventListener('click', () => selectRegion(regionTabs[index]));
+    pin.addEventListener('pointerenter', event => {
+      if (event.pointerType === 'mouse') previewRegion(pin.dataset.mapRegion);
+    });
+    pin.addEventListener('pointerleave', () => previewRegion());
+    pin.addEventListener('focus', () => previewRegion(pin.dataset.mapRegion));
+    pin.addEventListener('blur', () => previewRegion());
+    pin.addEventListener('keydown', event => {
+      const next = regionKeyIndex(event, index);
+      if (next === undefined) return;
+      event.preventDefault();
+      selectRegion(regionTabs[next]);
+      mapPins[next].focus();
+    });
+  });
+  mapCanvas.addEventListener('click', event => {
+    const area = event.target.closest('[data-map-area]');
+    if (area) selectRegion(regionTabs.find(tab => tab.dataset.region === area.dataset.mapArea));
+  });
+  mapCanvas.addEventListener('pointermove', event => {
+    if (event.pointerType !== 'mouse') return;
+    const target = event.target.closest('[data-map-region],[data-map-area]');
+    previewRegion(target?.dataset.mapRegion || target?.dataset.mapArea);
+  });
+  mapCanvas.addEventListener('pointerleave', () => previewRegion());
+  mapResults.addEventListener('click', () => {
+    panel.focus({ preventScroll: true });
+    panel.scrollIntoView({ behavior: reducedMotion.matches ? 'auto' : 'smooth', block: 'start' });
   });
 
   const faqAnimations = new WeakMap();

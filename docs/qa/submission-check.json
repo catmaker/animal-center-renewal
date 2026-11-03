@@ -5,7 +5,7 @@
   "animalProfiles": 8,
   "regions": 8,
   "errors": [],
-  "version": "1.0.2",
+  "version": "1.1.0",
   "runtime": {
     "chrome": "HTTP verified",
     "safari": "HTTP rendering verified",
@@ -19,6 +19,7 @@
     "imageDimensions": "All 17 image dimensions match source files",
     "profileDestinations": "Eight species-appropriate official links verified",
     "mobileMenuAndDialog": "Menu closes before consultation dialog opens",
-    "profilePhotos": "All eight source images fully visible at 1440x900 and 390x844; 16 cases passed"
+    "profilePhotos": "All eight source images fully visible at 1440x900 and 390x844; 16 cases passed",
+    "interactiveMap": "40 selections, 6 keyboard cases, list focus and scroll; 8 viewport layouts passed"
   }
 }
