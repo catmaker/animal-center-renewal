@@ -1,12 +1,12 @@
 @font-face {
   font-family: Pretendard;
-  src: url('../assets/fonts/PretendardVariable-subset.woff2') format('woff2');
+  src: url('../assets/fonts/PretendardVariable-subset.woff2?v=644b0c78aaa8') format('woff2');
   font-weight: 100 900;
   font-display: swap;
 }
 @font-face {
   font-family: 'Care Myeongjo';
-  src: url('../assets/fonts/CareMyeongjo-subset.woff2') format('woff2');
+  src: url('../assets/fonts/CareMyeongjo-subset.woff2?v=11af2655293d') format('woff2');
   font-weight: 400;
   font-display: swap;
 }

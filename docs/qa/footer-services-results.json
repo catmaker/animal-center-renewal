@@ -1,0 +1,199 @@
+{
+  "version": "1.1.2",
+  "date": "2026-11-04",
+  "status": "PASS",
+  "links": [
+    {
+      "announcement": true,
+      "href": "https://kanimal.org/category/지부시설/87/",
+      "label": "단체 소개",
+      "rel": "noopener noreferrer",
+      "target": "_blank"
+    },
+    {
+      "announcement": true,
+      "href": "https://kanimal.org/category/입소안내/205/",
+      "label": "입소·입양",
+      "rel": "noopener noreferrer",
+      "target": "_blank"
+    },
+    {
+      "announcement": true,
+      "href": "https://kanimal.org/category/동물출동/61/",
+      "label": "동물출동",
+      "rel": "noopener noreferrer",
+      "target": "_blank"
+    },
+    {
+      "announcement": true,
+      "href": "https://kanimal.org/category/SOS드론출동/163/",
+      "label": "드론출동",
+      "rel": "noopener noreferrer",
+      "target": "_blank"
+    },
+    {
+      "announcement": true,
+      "href": "https://kanimal.org/category/호텔링-안내/94/",
+      "label": "케어서비스",
+      "rel": "noopener noreferrer",
+      "target": "_blank"
+    },
+    {
+      "announcement": true,
+      "href": "https://kanimal.org/category/자격증-과정-안내/158/",
+      "label": "교육·파트너",
+      "rel": "noopener noreferrer",
+      "target": "_blank"
+    },
+    {
+      "announcement": true,
+      "href": "https://kanimal.org/category/인재채용/228/",
+      "label": "인재채용",
+      "rel": "noopener noreferrer",
+      "target": "_blank"
+    }
+  ],
+  "layouts": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "columns": 7,
+      "minTarget": [
+        150.8515625,
+        48
+      ],
+      "status": "PASS"
+    },
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "columns": 7,
+      "minTarget": [
+        148.7109375,
+        48
+      ],
+      "overlap": false,
+      "horizontalOverflow": false,
+      "status": "PASS"
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "columns": 7,
+      "minTarget": [
+        114.421875,
+        48
+      ],
+      "overlap": false,
+      "horizontalOverflow": false,
+      "status": "PASS"
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "columns": 4,
+      "minTarget": [
+        154.25,
+        48
+      ],
+      "overlap": false,
+      "horizontalOverflow": false,
+      "status": "PASS"
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "columns": 2,
+      "minTarget": [
+        171.5,
+        48
+      ],
+      "overlap": false,
+      "horizontalOverflow": false,
+      "status": "PASS"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "columns": 2,
+      "minTarget": [
+        151.5,
+        48
+      ],
+      "overlap": false,
+      "horizontalOverflow": false,
+      "status": "PASS"
+    },
+    {
+      "viewport": [
+        375,
+        667
+      ],
+      "columns": 2,
+      "minTarget": [
+        148,
+        48
+      ],
+      "overlap": false,
+      "horizontalOverflow": false,
+      "status": "PASS"
+    },
+    {
+      "viewport": [
+        320,
+        760
+      ],
+      "columns": 2,
+      "minTarget": [
+        128,
+        48
+      ],
+      "overlap": false,
+      "horizontalOverflow": false,
+      "status": "PASS"
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "columns": 4,
+      "minTarget": [
+        173.25,
+        48
+      ],
+      "overlap": false,
+      "horizontalOverflow": false,
+      "status": "PASS"
+    }
+  ],
+  "keyboard": {
+    "forward": [
+      "입소·입양",
+      "동물출동",
+      "드론출동",
+      "케어서비스",
+      "교육·파트너",
+      "인재채용"
+    ],
+    "backward": "교육·파트너",
+    "status": "PASS"
+  },
+  "externalNavigation": {
+    "title": "SOS드론출동 - SOS드론출동 - 한국 동물보육원 연합회",
+    "url": "https://kanimal.org/category/SOS%EB%93%9C%EB%A1%A0%EC%B6%9C%EB%8F%99/163/"
+  },
+  "console": []
+}

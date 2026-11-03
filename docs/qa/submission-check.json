@@ -5,7 +5,7 @@
   "animalProfiles": 8,
   "regions": 8,
   "errors": [],
-  "version": "1.1.1",
+  "version": "1.1.2",
   "runtime": {
     "chrome": "HTTP verified",
     "safari": "Current HTTP page and parrot dialog opened; extended interaction and scroll-close verification incomplete",
@@ -21,6 +21,7 @@
     "mobileMenuAndDialog": "Menu closes before consultation dialog opens",
     "profilePhotos": "40 profile cases across five viewport sizes; complete image, sticky close, focus cycle and return passed",
     "interactiveMap": "40 selections, 6 keyboard cases, list focus and scroll; 8 viewport layouts passed",
-    "fullAudit": "Nine full-page walks; 153 image loads and 114 interaction/profile cases passed"
+    "fullAudit": "Nine full-page walks; 153 image loads and 114 interaction/profile cases passed",
+    "footerServices": "Seven official links, nine viewport layouts, keyboard sequence and Enter new-tab navigation verified"
   }
 }

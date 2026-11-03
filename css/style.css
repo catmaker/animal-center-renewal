@@ -1787,6 +1787,53 @@ h1 {
   line-height: 1.9;
   margin-top: 16px;
 }
+.footer-services {
+  margin-top: 32px;
+  padding: 24px 0 16px;
+  border-block: 1px solid var(--gray-300);
+}
+.footer-services-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.footer-services-heading h2 {
+  font-size: 14px;
+  font-weight: 550;
+  color: var(--forest-900);
+}
+.footer-services-heading p {
+  font-size: 10px;
+  color: var(--gray-500);
+}
+.footer-services ul {
+  display: grid;
+  grid-template-columns: repeat(7,minmax(0,1fr));
+  gap: 0 24px;
+}
+.footer-services a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 48px;
+  color: var(--forest-700);
+  font-size: 12px;
+}
+.footer-services a:hover,.footer-services a:focus-visible {
+  color: var(--forest-900);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.footer-services a>[aria-hidden] {
+  font-size: 18px;
+  transition: transform .2s var(--ease);
+}
+.footer-services a:hover>[aria-hidden],.footer-services a:focus-visible>[aria-hidden] {
+  transform: translate(2px,-2px);
+}
 .footer-details span {
   margin-left: 14px;
 }
