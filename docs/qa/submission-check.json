@@ -5,10 +5,10 @@
   "animalProfiles": 8,
   "regions": 8,
   "errors": [],
-  "version": "1.1.0",
+  "version": "1.1.1",
   "runtime": {
     "chrome": "HTTP verified",
-    "safari": "HTTP rendering verified",
+    "safari": "Current HTTP page and parrot dialog opened; extended interaction and scroll-close verification incomplete",
     "fileProtocol": "Manual verification pending",
     "consoleErrorsAndWarnings": 0,
     "careStages": 4,
@@ -19,7 +19,8 @@
     "imageDimensions": "All 17 image dimensions match source files",
     "profileDestinations": "Eight species-appropriate official links verified",
     "mobileMenuAndDialog": "Menu closes before consultation dialog opens",
-    "profilePhotos": "All eight source images fully visible at 1440x900 and 390x844; 16 cases passed",
-    "interactiveMap": "40 selections, 6 keyboard cases, list focus and scroll; 8 viewport layouts passed"
+    "profilePhotos": "40 profile cases across five viewport sizes; complete image, sticky close, focus cycle and return passed",
+    "interactiveMap": "40 selections, 6 keyboard cases, list focus and scroll; 8 viewport layouts passed",
+    "fullAudit": "Nine full-page walks; 153 image loads and 114 interaction/profile cases passed"
   }
 }

@@ -15,7 +15,8 @@ window.AnimalCenterData = Object.freeze({
       "description": "바깥 냄새를 맡으며 걷는 시간을 좋아하는 보리. 처음에는 천천히 다가와 주세요. 함께 걷는 시간이 쌓이면 든든한 산책 친구가 될 거예요.",
       "adoptionUrl": "https://kanimal.org/board/무료입양-포유류/8/",
       "imageWidth": 700,
-      "imageHeight": 700
+      "imageHeight": 700,
+      "imageVersion": "fa90469f774d"
     },
     {
       "id": "nabi",
@@ -30,7 +31,8 @@ window.AnimalCenterData = Object.freeze({
       "description": "나비는 조용한 공간에서 자기만의 속도로 친해져요. 숨을 곳과 창가 자리를 마련하고 충분히 기다려 줄 가족을 만나고 싶어요.",
       "adoptionUrl": "https://kanimal.org/board/무료입양-포유류/8/",
       "imageWidth": 700,
-      "imageHeight": 700
+      "imageHeight": 700,
+      "imageVersion": "d668396c431c"
     },
     {
       "id": "dubu",
@@ -45,7 +47,8 @@ window.AnimalCenterData = Object.freeze({
       "description": "새로운 냄새와 장난감을 탐색하는 두부. 짧은 놀이와 충분한 휴식을 번갈아 가며 일상을 배워 갈 가족을 기다려요.",
       "adoptionUrl": "https://kanimal.org/board/무료입양-포유류/8/",
       "imageWidth": 700,
-      "imageHeight": 700
+      "imageHeight": 700,
+      "imageVersion": "41cb3afb66fd"
     },
     {
       "id": "horang",
@@ -60,7 +63,8 @@ window.AnimalCenterData = Object.freeze({
       "description": "호랑이는 낯선 환경을 살펴볼 시간이 필요해요. 먼저 다가오기 전까지 거리를 지켜 주고, 편안한 자리를 내어 주세요.",
       "adoptionUrl": "https://kanimal.org/board/무료입양-포유류/8/",
       "imageWidth": 700,
-      "imageHeight": 700
+      "imageHeight": 700,
+      "imageVersion": "54ff3f833fa3"
     },
     {
       "id": "kong",
@@ -75,7 +79,8 @@ window.AnimalCenterData = Object.freeze({
       "description": "콩이는 바닥에서 함께 시간을 보내는 걸 좋아해요. 토끼에게 맞는 먹이와 넉넉한 생활 공간을 준비할 수 있는지 상담에서 함께 확인해요.",
       "adoptionUrl": "https://kanimal.org/board/무료입양-중치류(토끼)/23/",
       "imageWidth": 700,
-      "imageHeight": 700
+      "imageHeight": 700,
+      "imageVersion": "7548036a23ba"
     },
     {
       "id": "yul",
@@ -89,8 +94,9 @@ window.AnimalCenterData = Object.freeze({
       "alt": "정면을 바라보는 골든 리트리버",
       "description": "율무는 사람 곁에서 조용히 쉬는 시간을 즐겨요. 서로의 생활 리듬을 알아가며 차분하게 적응할 수 있도록 도와주세요.",
       "adoptionUrl": "https://kanimal.org/board/무료입양-포유류/8/",
-      "imageWidth": 700,
-      "imageHeight": 700
+      "imageWidth": 1000,
+      "imageHeight": 1325,
+      "imageVersion": "1b81a88f07e2"
     },
     {
       "id": "bam",
@@ -105,7 +111,8 @@ window.AnimalCenterData = Object.freeze({
       "description": "따뜻한 햇살과 조용한 낮잠을 좋아하는 밤이. 새로운 가족에게 적응할 수 있도록 독립된 공간과 시간을 준비해 주세요.",
       "adoptionUrl": "https://kanimal.org/board/무료입양-포유류/8/",
       "imageWidth": 700,
-      "imageHeight": 700
+      "imageHeight": 700,
+      "imageVersion": "249e48cbc4fe"
     },
     {
       "id": "yeondu",
@@ -120,7 +127,8 @@ window.AnimalCenterData = Object.freeze({
       "description": "연두와 함께하려면 종에 맞는 식단, 활동 공간과 소음에 대한 이해가 필요해요. 오랜 시간 함께 돌볼 수 있는지 상담에서 차근차근 이야기해요.",
       "adoptionUrl": "https://kanimal.org/board/무료입양-조류/26/",
       "imageWidth": 1200,
-      "imageHeight": 1638
+      "imageHeight": 1638,
+      "imageVersion": "b8ba45b8c82b"
     }
   ],
   "facilities": {

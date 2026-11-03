@@ -6,7 +6,7 @@
 
 ![페이지 미리보기](docs/qa/desktop-1440.jpg)
 
-[모션 미리보기](docs/qa/hero-motion.gif) · [제출 ZIP](https://github.com/catmaker/animal-center-renewal/releases/download/v1.1.0/animal-center-renewal.zip)
+[모션 미리보기](docs/qa/hero-motion.gif) · [제출 ZIP](https://github.com/catmaker/animal-center-renewal/releases/download/v1.1.1/animal-center-renewal.zip)
 
 ## 실행 방법
 
@@ -76,11 +76,12 @@ Hero 사진은 우선 로드하고 하단 사진은 지연 로드합니다. 이�
 
 ## 검수
 
-- Chrome: 1440×900, 1280×800, 1024×768, 768×1024, 430×932, 390×844, 375×812
+- Chrome 전체 페이지: 1440×900, 1280×800, 1024×768, 768×1024, 430×932, 390×844, 375×667, 320×760, 844×390
 - 해당 화면 크기에서 가로 넘침, 제목·본문 넘침, 작은 클릭 영역, 깨진 이미지 검출 0건
 - 동물 필터 4개, 지역 탭 8개, 돌봄 단계 4개, FAQ 6개와 팝업 키보드 동작 확인
 - 지도 영역·지역 버튼·탭 선택 40건과 키보드 이동 6건, 지도는 320~1440px 8개 화면 폭에서 별도 확인
-- Safari: 로컬 HTTP에서 서체·사진·레이아웃 렌더링 확인
+- 상세 사진·팝업 40건, 주요 기능 58건, 메뉴 16건을 재검수했습니다. 스크롤 중에도 팝업 닫기를 유지합니다.
+- Safari: 현재 HTTP 페이지·앵무새 팝업 열림 확인. 전체 동작 검수는 미완료입니다.
 - ZIP 재해제 후 파일 일치, 상대경로, ARIA 대상, 중복 ID 검사 통과
 
 실기기 모바일·스크린리더 사용성 평가와 Lighthouse 점수는 추가 확인 대상입니다. 최종 버전의 `file://` 직접 실행은 검수 환경에서 확인하지 못했으며, 상대경로 정적 검사와 로컬 HTTP 동작을 확인했습니다. 자세한 범위는 [QA_REPORT.md](docs/QA_REPORT.md)에 있습니다.

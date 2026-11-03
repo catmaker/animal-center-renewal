@@ -1,0 +1,77 @@
+{
+  "version": "1.1.1",
+  "date": "2026-11-03",
+  "status": "PASS within stated test scope",
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      1280,
+      800
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      430,
+      932
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      375,
+      667
+    ],
+    [
+      320,
+      760
+    ],
+    [
+      844,
+      390
+    ]
+  ],
+  "pageWalks": 9,
+  "imagesPerViewport": 17,
+  "imageLoadChecks": 153,
+  "brokenImages": 0,
+  "imageAttributeMismatches": 0,
+  "horizontalOverflow": 0,
+  "overflowingHeadingsAndText": 0,
+  "targetsBelow44px": 0,
+  "interactionChecks": {
+    "care": 8,
+    "filters": 8,
+    "faq": 12,
+    "regions": 16,
+    "consultation": 14,
+    "menus": 16,
+    "animalProfiles": 40,
+    "total": 114
+  },
+  "profileChecks": [
+    "complete source image via contain",
+    "initial photo contained in dialog",
+    "sticky close after scrolling to last link",
+    "Shift+Tab / Tab wrap",
+    "Escape and original trigger focus restoration"
+  ],
+  "console": [],
+  "staticAssetDimensions": "PASS",
+  "assetVersionDigests": "PASS",
+  "safari": "Current HTTP page and parrot dialog opened; extended interaction and scroll-close verification incomplete",
+  "limitations": [
+    "Actual iOS/Android devices not tested",
+    "Latest file:// direct execution not verified",
+    "Lighthouse and screen-reader evaluation not performed"
+  ]
+}

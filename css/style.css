@@ -688,7 +688,7 @@ h1 {
 }
 .care-frames {
   position: relative;
-  aspect-ratio: 1.05;
+  aspect-ratio: 4/3;
   overflow: hidden;
   background: #223b2d;
 }
@@ -709,6 +709,12 @@ h1 {
   object-fit: cover;
   transform: scale(1.055);
   transition: transform 1.3s var(--ease);
+}
+[data-care-frame="1"] img {
+  object-position: 50% 20%;
+}
+[data-care-frame="2"] img {
+  object-position: 50% 25%;
 }
 .care-frame.is-active img {
   transform: scale(1);
@@ -958,6 +964,13 @@ h1 {
   object-fit: cover;
   transition: transform .7s var(--ease);
 }
+.animal-open[data-animal="nabi"] .animal-photo img {
+  object-position: 100% 50%;
+}
+.animal-open[data-animal="yeondu"] .animal-photo img {
+  object-fit: contain;
+  background: #24513a;
+}
 .animal-open:hover .animal-photo img {
   transform: scale(1.035);
 }
@@ -1043,7 +1056,7 @@ h1 {
   width: 100%;
   height: 110%;
   object-fit: cover;
-  object-position: 55% 60%;
+  object-position: 55% 20%;
   transform: translateY(var(--story-drift,0px));
   will-change: transform;
 }
@@ -1530,6 +1543,12 @@ h1 {
   object-fit: cover;
   transition: transform .7s var(--ease);
 }
+.activity-card:nth-child(2) img {
+  object-position: 50% 0%;
+}
+.activity-card:nth-child(3) img {
+  object-position: 50% 0%;
+}
 .activity-card:hover img {
   transform: scale(1.035);
 }
@@ -1878,6 +1897,12 @@ dialog::backdrop {
   position: relative;
   padding: 48px;
 }
+.dialog-tools {
+  position: sticky;
+  top: 0;
+  height: 0;
+  z-index: 5;
+}
 .dialog-close {
   position: absolute;
   right: 10px;
@@ -1886,6 +1911,7 @@ dialog::backdrop {
   min-height: 44px;
   font-size: 32px;
   line-height: 1;
+  background: var(--cream-50);
 }
 .dialog-content>.eyebrow {
   font-size: 10px;
