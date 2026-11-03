@@ -5,16 +5,19 @@
   "animalProfiles": 8,
   "regions": 8,
   "errors": [],
-  "version": "care-v2",
+  "version": "1.0.1",
   "runtime": {
     "chrome": "HTTP verified",
     "safari": "HTTP rendering verified",
-    "fileProtocol": "Current revision not tested: browser URL policy",
+    "fileProtocol": "Manual verification pending",
     "consoleErrorsAndWarnings": 0,
     "careStages": 4,
     "animalFilters": 4,
     "regionTabs": 8,
     "faqItems": 6,
-    "dialogFocusCycle": "verified"
+    "dialogFocusCycle": "verified",
+    "imageDimensions": "All 17 image dimensions match source files",
+    "profileDestinations": "Eight species-appropriate official links verified",
+    "mobileMenuAndDialog": "Menu closes before consultation dialog opens"
   }
 }

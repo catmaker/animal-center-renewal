@@ -216,6 +216,7 @@
   });
 
   function openDialog(title, content, eyebrow = 'GET IN TOUCH') {
+    setMenu(false);
     if (!dialog.open) previousFocus = document.activeElement;
     $('#dialog-title').textContent = title;
     $('#dialog-eyebrow').textContent = eyebrow;
@@ -272,7 +273,7 @@
     if (!animalButton) return;
     const animal = data.animals.find(item => item.id === animalButton.dataset.animal);
     if (!animal) return;
-    openDialog(`${animal.name}를 소개해요.`, `<img class="dialog-photo" src="assets/images/animals/${animal.id}.jpg" alt="${animal.alt}" width="700" height="700"><div class="profile-meta"><span>${animal.species} · ${animal.age} · ${animal.sex}</span><span>${animal.region}</span></div><p class="dialog-intro">${animal.description}</p><p class="profile-note">이 친구는 UI 시연용 가상 프로필입니다. 실제 입양 가능 여부는 공식 입양 공고에서 확인해 주세요.</p><a class="button full-button" href="https://kanimal.org/board/무료입양-포유류/8/" target="_blank" rel="noopener noreferrer">실제 입양 공고 확인 <span aria-hidden="true">↗</span><span class="sr-only"> (공식 사이트, 새 창, 인터넷 필요)</span></a>`, 'MEET YOUR COMPANION · DEMO');
+    openDialog(animal.name, `<img class="dialog-photo" src="assets/images/animals/${animal.id}.jpg" alt="${animal.alt}" width="700" height="700"><div class="profile-meta"><span>${animal.species} · ${animal.age} · ${animal.sex}</span><span>${animal.region}</span></div><p class="dialog-intro">${animal.description}</p><p class="profile-note">이 친구는 UI 시연용 가상 프로필입니다. 실제 입양 가능 여부는 공식 입양 공고에서 확인해 주세요.</p><a class="button full-button" href="${animal.adoptionUrl}" target="_blank" rel="noopener noreferrer">실제 입양 공고 확인 <span aria-hidden="true">↗</span><span class="sr-only"> (공식 사이트, 새 창, 인터넷 필요)</span></a>`, 'MEET YOUR COMPANION · DEMO');
   });
   $('#story-open').addEventListener('click', () => {
     openDialog('보리의 속도로, 한 걸음씩.', '<p class="profile-note">보호와 회복 과정을 설명하기 위한 가상 이야기입니다. 실제 구조 기록이 아닙니다.</p><ol class="story-timeline"><li><strong>낯선 공간에 도착한 날</strong><p>서둘러 다가가기보다 편히 쉴 수 있는 자리를 준비했습니다. 익숙해질 때까지 거리를 두고 기다렸습니다.</p></li><li><strong>몸과 마음을 살피는 시간</strong><p>먹고 쉬는 패턴을 살피고, 필요한 돌봄을 확인합니다. 작은 변화도 놓치지 않는 일상이 시작됩니다.</p></li><li><strong>산책길이 길어진 날</strong><p>짧게 시작한 산책이 조금씩 길어집니다. 새로운 냄새를 맡고, 사람 곁에서 편히 쉬는 시간이 늘어납니다.</p></li><li><strong>이제는, 함께할 가족에게</strong><p>좋아하는 것과 어려워하는 것을 함께 나누고, 보리의 속도를 존중할 가족을 기다립니다.</p></li></ol><button class="button full-button" data-consult="adoption">입양 과정 상담하기 <span aria-hidden="true">↗</span></button>', 'A LIFE AFTER RESCUE · DEMO');

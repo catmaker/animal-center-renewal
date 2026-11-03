@@ -14,7 +14,7 @@ Unsplash 공개 이미지 17장을 다운로드해 로컬에 포함했습니다.
 
 [Google Fonts / Nanum Myeongjo](https://github.com/google/fonts/tree/main/ofl/nanummyeongjo)의 Regular 글꼴을 서브셋했습니다. 저작권은 NHN Corporation에 있으며 SIL OFL 1.1 전문을 `assets/fonts/NanumMyeongjo-OFL.txt`에 포함했습니다. 파생 글꼴의 예약 이름 제한을 지키기 위해 패밀리·전체 이름·PostScript 이름을 **Care Myeongjo**로 변경했습니다. 원본 출처와 저작권 고지는 보존했습니다. 새 카피를 추가할 때는 본문·서술용 두 서브셋의 글자 범위를 갱신해야 합니다.
 
-## 직접 작성 자산
+## 프로젝트 전용 자산
 
 favicon, 선형 심벌, 권역 위치 개념도, CSS, 페이지 카피와 인터랙션은 이 시안을 위해 작성했습니다. 브랜드명·사업장 정보는 공식 자료를 참고했으며, 선형 심벌은 기관의 공식 상표나 확정된 리브랜딩 결과가 아닙니다.
 
