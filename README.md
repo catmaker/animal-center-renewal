@@ -6,7 +6,7 @@
 
 ![페이지 미리보기](docs/qa/desktop-1440.jpg)
 
-[모션 미리보기](docs/qa/hero-motion.gif) · [제출 ZIP](https://github.com/catmaker/animal-center-renewal/releases/download/v1.1.3/animal-center-renewal.zip)
+[배포 사이트](https://animal-center-renewal.vercel.app) · [모션 미리보기](docs/qa/hero-motion.gif) · [제출 ZIP](https://github.com/catmaker/animal-center-renewal/releases/download/v1.1.3/animal-center-renewal.zip)
 
 ## 실행 방법
 

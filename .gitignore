@@ -3,3 +3,5 @@ __MACOSX/
 __pycache__/
 *.py[cod]
 *.zip
+.vercel
+.env*
